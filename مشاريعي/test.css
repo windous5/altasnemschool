@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{ 
+    font-family: "Ubuntu", serif;
+    padding: 0%;
+    margin: 0%;
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-button {
+    background-color: #2196F3; /* لون أزرق */
+    color: white;
+}
+
+.info-button {
+    background-color: #FFC107; /* لون أصفر */
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    direction: rtl; /* محاذاة الجدول لليمين */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pass {
+    background-color: #c8e6c9; /* لون النجاح */
+}
+
+.fail {
+    background-color: #ffcdd2; /* لون الرسوب */
+}
+
+/* تأثير تفاعلي */
+tr:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
